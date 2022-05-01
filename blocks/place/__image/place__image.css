@@ -1,0 +1,6 @@
+.place__image{
+    /* padding-top: 48px;
+    padding-right: 40px; */
+    width: 100%;
+    grid-column: 1/2;
+}

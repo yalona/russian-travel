@@ -1,0 +1,8 @@
+.cover{
+    padding: 0 48px 92px;
+    min-height: 740px;
+    min-width: 100%;
+    display: flex;
+    /* box-sizing: border-box; */
+    position: relative;
+}
