@@ -3,7 +3,6 @@
     opacity: 0.3;
     min-width: 100%;
     min-height: 100%;
-    position: relative;
 }
 
 .cover__overlay:hover{

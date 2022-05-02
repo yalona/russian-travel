@@ -4,7 +4,6 @@ background-image: url(../../../images/lead-polka.jpg);
 width: 100%;
 height: 615px;
 background-size: cover;
-box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {

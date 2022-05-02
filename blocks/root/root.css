@@ -5,6 +5,11 @@
     url(../../fonts/Inter-Black.ttf) format('ttf');
     font-weight: bold;
     font-style: normal;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
 }
 
 @font-face {
@@ -14,6 +19,11 @@
     url(../../fonts/Inter-Regular.ttf) format('ttf');
     font-weight: normal;
     font-style: normal;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
 }
 
 .root{
