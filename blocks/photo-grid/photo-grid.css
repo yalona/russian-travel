@@ -2,7 +2,6 @@
     padding: 92px 48px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    grid-template-rows: auto;
     gap: 16px;
 }
 
@@ -26,3 +25,9 @@
         gap: 12px;
     }
 }
+
+/* @media screen and (max-width: 312px) {
+    .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+} */

@@ -12,6 +12,30 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 700px) {
+    .footer__link {
+        padding-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .footer__link:last-of-type {
+        padding-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer__link {
+        padding-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer__link:last-of-type {
+        padding-bottom: 48px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .footer__link {
         padding-bottom: 32px;

@@ -33,21 +33,3 @@
     background-color: #2A2C2F;
     color: white;
 }
-
-@media screen and (max-width: 1024px) {
-    .root {
-        max-width: 1024px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .root {
-        max-width: 768px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .root {
-        max-width: 320px;
-    }
-}
