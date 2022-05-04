@@ -2,7 +2,6 @@
     margin: 92px 0 0;
     padding-left: 148px;
     width: 690px;
-    min-height: 429px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -24,6 +23,5 @@
     padding-left: 16px;
     max-width: 288px;
     margin: 64px 0 0;
-    height: auto;
     }
 }

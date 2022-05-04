@@ -1,12 +1,13 @@
 .lead__caption {
     margin: 0;
     margin-top: 8px;
-    width: 158px;
-    height: 14px;
+    /* width: 158px; */
     font-size: 10px;
     line-height: 1.4;
-    font-weight: normal;
+    font-weight: 400;
     align-self: flex-start;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {

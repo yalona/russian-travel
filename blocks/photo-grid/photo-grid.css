@@ -19,6 +19,12 @@
     }
 }
 
+@media screen and (max-width: 325px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
 @media screen and (max-width: 320px) {
     .photo-grid {
         padding: 64px 16px;
@@ -26,8 +32,3 @@
     }
 }
 
-/* @media screen and (max-width: 312px) {
-    .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-} */
