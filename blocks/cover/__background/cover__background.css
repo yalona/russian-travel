@@ -1,4 +1,4 @@
-.cover__background{
+.cover__background {
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
     width: 100%;
@@ -9,5 +9,19 @@
    flex-direction: column;
    justify-content: center;
    align-content: center;
-   /* position: relative; */
+}
+
+.cover__background::after {
+    content: "";
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+.cover__background:hover::after {
+    opacity: 0.8;
+    cursor: pointer;
 }
